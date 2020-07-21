@@ -1,6 +1,7 @@
 //product single
 fetch('data/data.json').then(response => response.json()).then(data => {
     console.log(data);
+    const DEFAULT_SIZE = 'xl';
     var productId = getProductId();
     var productData = data.products.filter(item => item.id === productId)[0];
 
@@ -15,10 +16,10 @@ fetch('data/data.json').then(response => response.json()).then(data => {
     productNameBox.textContent = productData.name;
     productNameBoxHead.textContent = productData.name;
     descriptionBox.textContent = productData.description;
-    priceBox.textContent = 'Rs. ' + productData.prices.m.price;
-    cancelledPriceBox.textContent = 'Rs. ' + (productData.prices.m.cancelledPrice ? productData.prices.m.cancelledPrice : '');
+    priceBox.textContent = 'Rs. ' + productData.prices[DEFAULT_SIZE].price;
+    cancelledPriceBox.textContent = 'Rs. ' + (productData.prices[DEFAULT_SIZE].cancelledPrice ? productData.prices[DEFAULT_SIZE].cancelledPrice : '');
 
-    var sizes = ['s', 'm', 'l', 'xl'];
+    var sizes = ['s_baby', 'm_baby', 'xl', 'xxl', 'xxxl'];
     for (var size of sizes) {
         if (productData.prices[size]) {
             var priceObj = productData.prices[size];

@@ -1,4 +1,5 @@
 // shop.js
+const DEFAULT_SIZE = 'xl';
 fetch('data/data.json').then(response => response.json()).then(data => {
     const productsBox = document.getElementById('products-box');
 
@@ -39,11 +40,11 @@ function getStatus(product) {
     }
 }
 function getPrice(product) {
-    if (product.prices.m.cancelledPrice) {
-        return `<p class="price"><span class="mr-2 price-dc">Rs. ${product.prices.m.cancelledPrice}</span><span class="price-sale">Rs. ${product.prices.m.price}</span></p>`;
+    if (product.prices[DEFAULT_SIZE].cancelledPrice) {
+        return `<p class="price"><span class="mr-2 price-dc">Rs. ${product.prices[DEFAULT_SIZE].cancelledPrice}</span><span class="price-sale">Rs. ${product.prices[DEFAULT_SIZE].price}</span></p>`;
     } else {
         return `<p class="price">
-            <span class="price-sale">Rs. ${product.prices.m.price}</span></p>`;
+            <span class="price-sale">Rs. ${product.prices[DEFAULT_SIZE].price}</span></p>`;
     }
 }
 function getImgSrc(product) {
