@@ -1,5 +1,6 @@
 Comfort Seating font could be changed to something more cursive
 
+Put a SHOP button below Comfort Seating
 
 
 $ git add .

@@ -9,6 +9,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 
 
 	<link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
@@ -50,13 +51,37 @@
 		 transform: scale(1.1);
 		 
 	}
+	#main-heading {
+		font-family: 'Pacifico', cursive;
+		text-transform: none;
+		font-weight: 100;
+	}
+	.navbar-brand {
+		font-family: 'Pacifico', cursive;
+		text-transform: none;
+	}
+	.pink-button {
+		margin: 0 auto;
+		width: 200px;
+		height: 70px;
+		display: flex;
+  		justify-content: center;
+  		align-items: center;
+		background-color: pink;
+		border-radius: 5px;
+	}
+	.pink-button > a {
+		color: white;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
 </style>
 
 <body>
 
 	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 		<div class="container">
-			<a class="navbar-brand" href="index.html">Modist</a>
+			<a class="navbar-brand" href="index.html">Comfort Seating</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
 				aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="oi oi-menu"></span> Menu
@@ -97,13 +122,14 @@
 				<!-- <h3 class="v">Modist - Time to get dress</h3> -->
 				<!-- <h3 class="vr">Since - 1985</h3> -->
 				<div class="col-md-11 ftco-animate text-center">
-					<h1>Comfort Seating</h1>
+					<h1 id='main-heading'>Comfort Seating</h1>
 					<!-- <h2><span>Wear Your Dress</span></h2> -->
 				</div>
 				<div class="mouse">
-					<a href="#" class="mouse-icon">
+					<!--<a href="#" class="mouse-icon">
 						<div class="mouse-wheel"><span class="ion-ios-arrow-down"></span></div>
-					</a>
+					</a> -->
+					<div class='pink-button'><a href="shop.html">SHOP NOW</a></div>
 				</div>
 			</div>
 		</div>
@@ -437,7 +463,7 @@
 		</div>
 	</section>
 
-	<section class="ftco-section ftco-section-more img" style="background-image: url(images/bg_5.jpg);">
+	<section class="ftco-section ftco-section-more img" style="background-image: url(images/four_bags.jpg);">
 		<div class="container">
 			<div class="row justify-content-center mb-3 pb-3">
 				<div class="col-md-12 heading-section ftco-animate">
