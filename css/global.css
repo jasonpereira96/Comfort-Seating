@@ -1,0 +1,25 @@
+/*global.css*/
+
+.pacifo { /*global*/
+    font-family: 'Pacifico', cursive;
+}
+.hero-wrap.hero-bread { /*global*/
+    background-color: #ecebf1;
+}
+.ftco-navbar-light {
+    background-color: white !important;
+    top: 0px;
+}
+.ftco-navbar-light a.nav-link:hover {
+     color: pink !important;
+     text-decoration: underline;
+     transform: scale(1.1);	 
+}
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+    text-transform: none;
+}
+i {
+    font-size: 96px !important;
+    color: black !important;
+}

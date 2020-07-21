@@ -2,6 +2,13 @@ Comfort Seating font could be changed to something more cursive
 
 Put a SHOP button below Comfort Seating
 
+change our services to our values
+
+can add testimonies on the home page? or may be no
+
+sup quality - star/gavel
+built for comfortable - tag_faces
+multipurpose open_with
 
 $ git add .
 $ git status // to see what changes are going to be commited
