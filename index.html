@@ -49,21 +49,8 @@
 		text-transform: none;
 		font-weight: 100;
 	}
-	
-	.pink-button {
-		margin: 0 auto;
-		width: 200px;
-		height: 70px;
-		display: flex;
-  		justify-content: center;
-  		align-items: center;
-		background-color: pink;
-		border-radius: 5px;
-	}
-	.pink-button > a {
-		color: white;
-		text-transform: uppercase;
-		font-weight: bold;
+	.ftco-section.contact-section.bg-light {
+		padding-top: 0px;
 	}
 </style>
 
@@ -81,6 +68,7 @@
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
 					<li class="nav-item"><a href="shop.html" class="nav-link">Shop</a></li>
+					<li class="nav-item"><a href="personalized.html" class="nav-link">Personalized</a></li>
 				<!--	
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown"
@@ -126,7 +114,7 @@
 	</div>
 
 	<div class="goto-here"></div>
-
+	
 	<section class="ftco-section ftco-product">
 		<div class="container">
 			<div class="row justify-content-center mb-3 pb-3">
@@ -286,7 +274,61 @@
 			</div>
 		</div>
 	</section>
-
+	<section class="ftco-section contact-section bg-light">
+			<div class="container">
+					<div class="row justify-content-center mb-3 pb-3">
+							<div class="col-md-12 heading-section text-center ftco-animate">
+								<!-- <h1 class="big">Trending</h1> -->
+								<h2 class="mb-4">Locate Us</h2>
+							</div>
+						</div>
+			  <div class="row d-flex mt-5 contact-info">
+				<div class="w-100"></div>
+				<div class="col-md-6 d-flex">
+					<div class="info bg-white p-4">
+					<h3>Bandra West</h3>
+					  <p>
+						<address>
+							You may also want to visit us:<br>
+							Mozilla Foundation<br>
+							331 E Evelyn Ave<br>
+							Mountain View, CA 94041<br>
+							USA
+						  </address>
+					</p>
+					</div>
+				</div>
+				<div class="col-md-6 d-flex">
+					<div class="info bg-white p-4">
+						<h3>Borivali West</h3>
+						<p>
+							<address>
+								You may also want to visit us:<br>
+								Mozilla Foundation<br>
+								331 E Evelyn Ave<br>
+								Mountain View, CA 94041<br>
+								USA
+							  </address>
+						</p>
+					</div>
+				</div>
+			  </div>
+			  <div class="row d-flex mt-5 contact-info">
+				  <div class="w-100"></div>
+				  <div class="col-md-6 d-flex">
+					<div class="info bg-white p-4">
+					  <p><span>Instagram</span></p>
+					</div>
+				  </div>
+				  <div class="col-md-6 d-flex">
+					  <div class="info bg-white p-4">
+						<p><span>Phone:</span>23sodonsd</p>
+					  </div>
+				  </div>
+				</div>
+			</div>
+		</section> 
+	<!--
 	<section class="ftco-section ftco-no-pb ftco-no-pt bg-light">
 		<div class="container">
 			<div class="row">
@@ -370,7 +412,6 @@
 								<div class="pricing">
 									<p class="price"><span>$120.00</span></p>
 								</div>
-								<!--
 								<div class="rating">
 									<p class="text-right">
 										<span class="ion-ios-star-outline"></span>
@@ -379,15 +420,15 @@
 										<span class="ion-ios-star-outline"></span>
 										<span class="ion-ios-star-outline"></span>
 									</p>
-								</div> -->
+								</div> -
 							</div>
-							<!--
+							
 							<hr>
 							<p class="bottom-area d-flex">
 								<a href="#" class="add-to-cart"><span>Add to cart <i
 											class="ion-ios-add ml-1"></i></span></a>
 								<a href="#" class="ml-auto"><span><i class="ion-ios-heart-empty"></i></span></a>
-							</p> -->
+							</p> 
 						</div>
 					</div>
 				</div>
@@ -452,16 +493,21 @@
 			</div>
 		</div>
 	</section>
-
-	<section class="ftco-section ftco-section-more img" style="background-image: url(images/four_bags.jpg);">
+	<section class="ftco-section ftco-section-more img" style="background-color: hotpink;">
 		<div class="container">
 			<div class="row justify-content-center mb-3 pb-3">
-				<div class="col-md-12 heading-section ftco-animate">
-					<h2>Summer Sale</h2>
+					<iframe
+					width="600"
+					height="450"
+					frameborder="0" style="border:0"
+					src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBoY9BYCv21nXZxlfulif1ZZMf7i8HRMus&q=Space+Needle,Seattle+WA" allowfullscreen>
+				  </iframe>
+				  
+				 <h2>Summer Sale</h2> 
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 
 	<section class="ftco-section testimony-section bg-light">
 		<div class="container">
@@ -811,6 +857,7 @@
 			</div>
 		</div>
 	</footer>
+	<span class='float'><a href='personalized.html'><b>We also do Personalized Products! Have a look here! </b></a></span>
 
 
 
@@ -834,14 +881,10 @@
 	<script src="js/jquery.animateNumber.min.js"></script>
 	<script src="js/bootstrap-datepicker.js"></script>
 	<script src="js/scrollax.min.js"></script>
-	<script
-		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-	<script src="js/google-map.js"></script>
+	<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script> -->
+	<!-- <script src="js/google-map.js"></script> -->
 	<script src="js/main.js"></script>
-	<script>
-		fetch('test.json').then(response => response.json()).then(data => console.log(data));
-	</script>
-
+</script>
 </body>
 
 </html>

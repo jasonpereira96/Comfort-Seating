@@ -10,6 +10,13 @@ sup quality - star/gavel
 built for comfortable - tag_faces
 multipurpose open_with
 
+
+a made to order tab
+
+how to make div clickable - done
+
+leave the map
+
 $ git add .
 $ git status // to see what changes are going to be commited
 $ git commit -m 'Some descriptive commit message'

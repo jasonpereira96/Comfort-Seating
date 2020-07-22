@@ -1,25 +1,72 @@
 /*global.css*/
 
-.pacifo { /*global*/
+.pacifo {
+    /*global*/
     font-family: 'Pacifico', cursive;
 }
-.hero-wrap.hero-bread { /*global*/
+
+.hero-wrap.hero-bread {
+    /*global*/
     background-color: #ecebf1;
 }
+
 .ftco-navbar-light {
     background-color: white !important;
     top: 0px;
 }
+
 .ftco-navbar-light a.nav-link:hover {
-     color: pink !important;
-     text-decoration: underline;
-     transform: scale(1.1);	 
+    color: pink !important;
+    text-decoration: underline;
+    transform: scale(1.1);
 }
+
 .navbar-brand {
     font-family: 'Pacifico', cursive;
     text-transform: none;
 }
+
 i {
     font-size: 96px !important;
     color: black !important;
+}
+
+.pink-button>a {
+    margin: 0 auto;
+    width: 200px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    border-radius: 5px;
+}
+
+.pink-button>a {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+h2.mb-4 {
+    font-family: 'Red Hat Display';
+    text-transform: none;
+    letter-spacing: 0mm;
+}
+.float {
+    position: fixed;
+    /* width: 60px; */
+    /* height: 60px; */
+    bottom: 40px;
+    right: 40px;
+    background-color: pink;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    box-shadow: 2px 3px 4px #000;
+    z-index: 5000;
+}
+
+.float>a {
+    color: white;
 }
