@@ -7,23 +7,23 @@
             "status": "New",
             "prices": {
                 "s_baby": {
-                    "price": 1000,
+                    "price": 1200,
                     "cancelledPrice": 0
                 },
                 "m_baby": {
-                    "price": 2000,
-                    "cancelledPrice": 200
+                    "price": 1400,
+                    "cancelledPrice": 0
                 },
                 "xl": {
-                    "price": 2000,
-                    "cancelledPrice": 500
+                    "price": 1600,
+                    "cancelledPrice": 0
                 },
                 "xxl": {
-                    "price": 2000,
-                    "cancelledPrice": 11
+                    "price": 1800,
+                    "cancelledPrice": 0
                 },
                 "xxxl": {
-                    "price": 3000,
+                    "price": 2000,
                     "cancelledPrice": 0
                 }
             }
@@ -35,23 +35,23 @@
             "status": "",
             "prices": {
                 "s_baby": {
-                    "price": 1000,
+                    "price": 1200,
                     "cancelledPrice": 0
                 },
                 "m_baby": {
-                    "price": 2000,
-                    "cancelledPrice": 200
+                    "price": 1400,
+                    "cancelledPrice": 0
                 },
                 "xl": {
-                    "price": 2000,
-                    "cancelledPrice": 500
+                    "price": 1600,
+                    "cancelledPrice": 0
                 },
                 "xxl": {
-                    "price": 2000,
-                    "cancelledPrice": 11
+                    "price": 1800,
+                    "cancelledPrice": 0
                 },
                 "xxxl": {
-                    "price": 3000,
+                    "price": 2000,
                     "cancelledPrice": 0
                 }
             }
@@ -63,23 +63,23 @@
             "status": "Trending",
             "prices": {
                 "s_baby": {
-                    "price": 1000,
+                    "price": 1200,
                     "cancelledPrice": 0
                 },
                 "m_baby": {
-                    "price": 2000,
-                    "cancelledPrice": 200
+                    "price": 1400,
+                    "cancelledPrice": 0
                 },
                 "xl": {
-                    "price": 2000,
-                    "cancelledPrice": 500
+                    "price": 1600,
+                    "cancelledPrice": 0
                 },
                 "xxl": {
-                    "price": 2000,
-                    "cancelledPrice": 11
+                    "price": 1800,
+                    "cancelledPrice": 0
                 },
                 "xxxl": {
-                    "price": 3000,
+                    "price": 2000,
                     "cancelledPrice": 0
                 }
             }
@@ -91,23 +91,23 @@
             "status": "",
             "prices": {
                 "s_baby": {
-                    "price": 1000,
+                    "price": 1200,
                     "cancelledPrice": 0
                 },
                 "m_baby": {
-                    "price": 2000,
-                    "cancelledPrice": 200
+                    "price": 1400,
+                    "cancelledPrice": 0
                 },
                 "xl": {
-                    "price": 2000,
-                    "cancelledPrice": 500
+                    "price": 1600,
+                    "cancelledPrice": 0
                 },
                 "xxl": {
-                    "price": 2000,
-                    "cancelledPrice": 11
+                    "price": 1800,
+                    "cancelledPrice": 0
                 },
                 "xxxl": {
-                    "price": 3000,
+                    "price": 2000,
                     "cancelledPrice": 0
                 }
             }
@@ -119,23 +119,23 @@
             "status": "New",
             "prices": {
                 "s_baby": {
-                    "price": 1000,
+                    "price": 1200,
                     "cancelledPrice": 0
                 },
                 "m_baby": {
-                    "price": 2000,
-                    "cancelledPrice": 200
+                    "price": 1400,
+                    "cancelledPrice": 0
                 },
                 "xl": {
-                    "price": 2000,
-                    "cancelledPrice": 500
+                    "price": 1600,
+                    "cancelledPrice": 0
                 },
                 "xxl": {
-                    "price": 2000,
-                    "cancelledPrice": 11
+                    "price": 1800,
+                    "cancelledPrice": 0
                 },
                 "xxxl": {
-                    "price": 3000,
+                    "price": 2000,
                     "cancelledPrice": 0
                 }
             }
@@ -147,23 +147,23 @@
             "status": "",
             "prices": {
                 "s_baby": {
-                    "price": 1000,
+                    "price": 1200,
                     "cancelledPrice": 0
                 },
                 "m_baby": {
-                    "price": 2000,
-                    "cancelledPrice": 200
+                    "price": 1400,
+                    "cancelledPrice": 0
                 },
                 "xl": {
-                    "price": 2000,
-                    "cancelledPrice": 500
+                    "price": 1600,
+                    "cancelledPrice": 0
                 },
                 "xxl": {
-                    "price": 2000,
-                    "cancelledPrice": 11
+                    "price": 1800,
+                    "cancelledPrice": 0
                 },
                 "xxxl": {
-                    "price": 3000,
+                    "price": 2000,
                     "cancelledPrice": 0
                 }
             }
@@ -175,23 +175,23 @@
             "status": "",
             "prices": {
                 "s_baby": {
-                    "price": 1000,
+                    "price": 1200,
                     "cancelledPrice": 0
                 },
                 "m_baby": {
-                    "price": 2000,
-                    "cancelledPrice": 200
+                    "price": 1400,
+                    "cancelledPrice": 0
                 },
                 "xl": {
-                    "price": 2000,
-                    "cancelledPrice": 500
+                    "price": 1600,
+                    "cancelledPrice": 0
                 },
                 "xxl": {
-                    "price": 2000,
-                    "cancelledPrice": 11
+                    "price": 1800,
+                    "cancelledPrice": 0
                 },
                 "xxxl": {
-                    "price": 3000,
+                    "price": 2000,
                     "cancelledPrice": 0
                 }
             }

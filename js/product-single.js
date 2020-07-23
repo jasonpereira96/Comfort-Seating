@@ -22,7 +22,7 @@ fetch('data/data.json').then(response => response.json()).then(data => {
     productNameBoxHead.textContent = productData.name;
     // descriptionBox.textContent = productData.description;
     priceBox.textContent = 'Rs. ' + productData.prices[DEFAULT_SIZE].price;
-    cancelledPriceBox.textContent = 'Rs. ' + (productData.prices[DEFAULT_SIZE].cancelledPrice ? productData.prices[DEFAULT_SIZE].cancelledPrice : '');
+    cancelledPriceBox.textContent = productData.prices[DEFAULT_SIZE].cancelledPrice ? ('Rs. + ' + productData.prices[DEFAULT_SIZE].cancelledPrice) : '';
     imgTag.setAttribute('src', `images/product-${productId}.jpg`);
     breadcrumbNameBox.textContent = productData.name;
     productCodeBox.textContent = `Product Code: P-10${productData.id}`;
