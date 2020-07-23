@@ -2,6 +2,9 @@
 fetch('data/data.json').then(response => response.json()).then(data => {
     console.log(data);
     const DEFAULT_SIZE = 'xl';
+    if (!checkURL(data)) {
+        window.location.href = 'shop.html';
+    }
     var productId = getProductId();
     var productData = data.products.filter(item => item.id === productId)[0];
 
@@ -47,4 +50,16 @@ function getProductId() {
     var productId = url.searchParams.get("productId");
     console.log(`productId: ${productId}`);
     return parseInt(productId);
+}
+function checkURL(data) {
+    var urlString = window.location.href;
+    var url = new URL(urlString);
+    var productId = url.searchParams.get("productId");
+    if (!productId) {
+        return false;
+    }
+    if (productId > data.products.length) {
+        return false;
+    }
+    return true;
 }
