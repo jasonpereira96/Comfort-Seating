@@ -1,0 +1,32 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Blue Striped",
+            "description": "description",
+            "status": "New",
+            "prices": {
+                "s_baby": {
+                    "price": 1000,
+                    "cancelledPrice": 0
+                },
+                "m_baby": {
+                    "price": 2000,
+                    "cancelledPrice": 200
+                },
+                "xl": {
+                    "price": 2000,
+                    "cancelledPrice": 500
+                },
+                "xxl": {
+                    "price": 2000,
+                    "cancelledPrice": 11
+                },
+                "xxxl": {
+                    "price": 3000,
+                    "cancelledPrice": 0
+                }
+            }
+        }
+    ]
+}

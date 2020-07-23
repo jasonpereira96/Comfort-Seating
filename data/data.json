@@ -1,32 +1,200 @@
 {
-    "products":[
+    "products": [
         {
             "id": 1,
-            "name" : "Blue and White Striped",
-            "description": "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word and and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.",
-            "status": "New Arrival",
+            "name": "Blue and White Striped",
+            "description": "description",
+            "status": "New",
             "prices": {
                 "s_baby": {
                     "price": 1000,
-                    "cancelledPrice": 1500
+                    "cancelledPrice": 0
                 },
                 "m_baby": {
-                    "price": 1200,
-                    "cancelledPrice": 1600
+                    "price": 2000,
+                    "cancelledPrice": 200
                 },
                 "xl": {
                     "price": 2000,
-                    "cancelledPrice": 2500
+                    "cancelledPrice": 500
                 },
                 "xxl": {
-                    "price": 3000,
-                    "_cancelledPrice": 3500
+                    "price": 2000,
+                    "cancelledPrice": 11
                 },
                 "xxxl": {
                     "price": 3000,
-                    "_cancelledPrice": 3500
+                    "cancelledPrice": 0
+                }
+            }
+        },
+        {
+            "id": 2,
+            "name": "Red Solid",
+            "description": "description",
+            "status": "",
+            "prices": {
+                "s_baby": {
+                    "price": 1000,
+                    "cancelledPrice": 0
+                },
+                "m_baby": {
+                    "price": 2000,
+                    "cancelledPrice": 200
+                },
+                "xl": {
+                    "price": 2000,
+                    "cancelledPrice": 500
+                },
+                "xxl": {
+                    "price": 2000,
+                    "cancelledPrice": 11
+                },
+                "xxxl": {
+                    "price": 3000,
+                    "cancelledPrice": 0
+                }
+            }
+        },
+        {
+            "id": 3,
+            "name": "Newspaper",
+            "description": "description",
+            "status": "Trending",
+            "prices": {
+                "s_baby": {
+                    "price": 1000,
+                    "cancelledPrice": 0
+                },
+                "m_baby": {
+                    "price": 2000,
+                    "cancelledPrice": 200
+                },
+                "xl": {
+                    "price": 2000,
+                    "cancelledPrice": 500
+                },
+                "xxl": {
+                    "price": 2000,
+                    "cancelledPrice": 11
+                },
+                "xxxl": {
+                    "price": 3000,
+                    "cancelledPrice": 0
+                }
+            }
+        },
+        {
+            "id": 4,
+            "name": "Red and Black Striped",
+            "description": "description",
+            "status": "",
+            "prices": {
+                "s_baby": {
+                    "price": 1000,
+                    "cancelledPrice": 0
+                },
+                "m_baby": {
+                    "price": 2000,
+                    "cancelledPrice": 200
+                },
+                "xl": {
+                    "price": 2000,
+                    "cancelledPrice": 500
+                },
+                "xxl": {
+                    "price": 2000,
+                    "cancelledPrice": 11
+                },
+                "xxxl": {
+                    "price": 3000,
+                    "cancelledPrice": 0
+                }
+            }
+        },
+        {
+            "id": 5,
+            "name": "Yellow and White Striped",
+            "description": "description",
+            "status": "New",
+            "prices": {
+                "s_baby": {
+                    "price": 1000,
+                    "cancelledPrice": 0
+                },
+                "m_baby": {
+                    "price": 2000,
+                    "cancelledPrice": 200
+                },
+                "xl": {
+                    "price": 2000,
+                    "cancelledPrice": 500
+                },
+                "xxl": {
+                    "price": 2000,
+                    "cancelledPrice": 11
+                },
+                "xxxl": {
+                    "price": 3000,
+                    "cancelledPrice": 0
+                }
+            }
+        },
+        {
+            "id": 6,
+            "name": "Green and Black Striped",
+            "description": "description",
+            "status": "",
+            "prices": {
+                "s_baby": {
+                    "price": 1000,
+                    "cancelledPrice": 0
+                },
+                "m_baby": {
+                    "price": 2000,
+                    "cancelledPrice": 200
+                },
+                "xl": {
+                    "price": 2000,
+                    "cancelledPrice": 500
+                },
+                "xxl": {
+                    "price": 2000,
+                    "cancelledPrice": 11
+                },
+                "xxxl": {
+                    "price": 3000,
+                    "cancelledPrice": 0
+                }
+            }
+        },
+        {
+            "id": 7,
+            "name": "Blue and Black Striped",
+            "description": "description",
+            "status": "",
+            "prices": {
+                "s_baby": {
+                    "price": 1000,
+                    "cancelledPrice": 0
+                },
+                "m_baby": {
+                    "price": 2000,
+                    "cancelledPrice": 200
+                },
+                "xl": {
+                    "price": 2000,
+                    "cancelledPrice": 500
+                },
+                "xxl": {
+                    "price": 2000,
+                    "cancelledPrice": 11
+                },
+                "xxxl": {
+                    "price": 3000,
+                    "cancelledPrice": 0
                 }
             }
         }
-    ]    
+    ]
 }

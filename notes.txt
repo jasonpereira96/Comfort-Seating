@@ -13,12 +13,13 @@ multipurpose open_with
 how to make div clickable - done
 
 to write
+
 each product description
 about us
 addresses of the shops
-personalized para
-testimonies reframe
-values paras
+personalized para - done ish
+testimonies reframe - done
+values paras - done
 fix footer and footer menu
 
 

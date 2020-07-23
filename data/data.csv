@@ -1,0 +1,8 @@
+id,name,description,status,s_baby,m_baby,xl,xxl,xxxl,s_baby_c,m_baby_c,xl_c,xxl_c,xxxl_c
+1,Blue and White Striped,description,New,1000,2000,2000,2000,3000,0,200,500,11,0
+2,Red Solid,description,,1000,2000,2000,2000,3000,0,200,500,11,0
+3,Newspaper,description,Trending,1000,2000,2000,2000,3000,0,200,500,11,0
+4,Red and Black Striped,description,,1000,2000,2000,2000,3000,0,200,500,11,0
+5,Yellow and White Striped,description,New,1000,2000,2000,2000,3000,0,200,500,11,0
+6,Green and Black Striped,description,,1000,2000,2000,2000,3000,0,200,500,11,0
+7,Blue and Black Striped,description,,1000,2000,2000,2000,3000,0,200,500,11,0

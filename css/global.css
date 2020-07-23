@@ -5,6 +5,28 @@
     font-family: 'Pacifico', cursive;
 }
 
+.ftco-navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, 1.0) !important;
+}
+
+@media (max-width: 991.98px){
+    .ftco-navbar-light .navbar-brand {
+        color: black;
+    }
+}
+
+.navbar.navbar-expand-lg.navbar-dark.ftco_navbar.bg-dark.ftco-navbar-light.scrolled.awake {
+    z-index: 6000;;
+}
+
+@media (max-width: 991.98px) {
+    .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+        color: black;
+    }
+    .ftco-navbar-light .navbar-nav > .nav-item.active > a {
+        color: pink;
+    }
+}
 .hero-wrap.hero-bread, #section-counter {
     /*global*/
     background-color: #ecebf1;
@@ -80,4 +102,8 @@ h2.mb-4 {
 }
 h3.call-whatsapp {
     text-transform: none;
+}
+
+#footer-menu a:hover {
+    text-decoration: underline;
 }

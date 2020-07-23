@@ -4,10 +4,8 @@ fetch('data/data.json').then(response => response.json()).then(data => {
     const productsBox = document.getElementById('products-box');
 
     for (var product of data.products) {
-        for (var i = 0; i < 10; i++) {
-            var card = getCard(product);
-            productsBox.appendChild(card);
-        }
+        var card = getCard(product);
+        productsBox.appendChild(card);
     }
 });
 

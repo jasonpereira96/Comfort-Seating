@@ -14,13 +14,18 @@ fetch('data/data.json').then(response => response.json()).then(data => {
     const priceBox = document.getElementById('price-box');
     const cancelledPriceBox = document.getElementById('cancelled-price-box');
     const priceTableBody = document.getElementById('price-table-body');
-
+    const imgTag = document.getElementById('img-tag');
+    const breadcrumbNameBox = document.getElementById('breadcrumb-name-box');
+    const productCodeBox = document.getElementById('product-code-box');
 
     productNameBox.textContent = productData.name;
     productNameBoxHead.textContent = productData.name;
-    descriptionBox.textContent = productData.description;
+    // descriptionBox.textContent = productData.description;
     priceBox.textContent = 'Rs. ' + productData.prices[DEFAULT_SIZE].price;
     cancelledPriceBox.textContent = 'Rs. ' + (productData.prices[DEFAULT_SIZE].cancelledPrice ? productData.prices[DEFAULT_SIZE].cancelledPrice : '');
+    imgTag.setAttribute('src', `images/product-${productId}.jpg`);
+    breadcrumbNameBox.textContent = productData.name;
+    productCodeBox.textContent = `Product Code: P-10${productData.id}`;
 
     var sizes = ['s_baby', 'm_baby', 'xl', 'xxl', 'xxxl'];
     for (var size of sizes) {
