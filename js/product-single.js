@@ -25,7 +25,7 @@ fetch('data/data.json').then(response => response.json()).then(data => {
     cancelledPriceBox.textContent = productData.prices[DEFAULT_SIZE].cancelledPrice ? ('Rs. + ' + productData.prices[DEFAULT_SIZE].cancelledPrice) : '';
     imgTag.setAttribute('src', `images/product-${productId}.jpg`);
     breadcrumbNameBox.textContent = productData.name;
-    productCodeBox.textContent = `Product Code: P-10${productData.id}`;
+    productCodeBox.textContent = `Product Code: P-${productData.id}`;
 
     var sizes = ['s_baby', 'm_baby', 'xl', 'xxl', 'xxxl'];
     for (var size of sizes) {

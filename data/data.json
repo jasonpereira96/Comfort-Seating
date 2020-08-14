@@ -195,6 +195,174 @@
                     "cancelledPrice": 0
                 }
             }
+        },
+        {
+            "id": 8,
+            "name": "Red and Blue Striped",
+            "description": "description",
+            "status": "",
+            "prices": {
+                "s_baby": {
+                    "price": 1200,
+                    "cancelledPrice": 0
+                },
+                "m_baby": {
+                    "price": 1400,
+                    "cancelledPrice": 0
+                },
+                "xl": {
+                    "price": 1600,
+                    "cancelledPrice": 0
+                },
+                "xxl": {
+                    "price": 1800,
+                    "cancelledPrice": 0
+                },
+                "xxxl": {
+                    "price": 2000,
+                    "cancelledPrice": 0
+                }
+            }
+        },
+        {
+            "id": 9,
+            "name": "Black and Brown Striped",
+            "description": "description",
+            "status": "",
+            "prices": {
+                "s_baby": {
+                    "price": 1200,
+                    "cancelledPrice": 0
+                },
+                "m_baby": {
+                    "price": 1400,
+                    "cancelledPrice": 0
+                },
+                "xl": {
+                    "price": 1600,
+                    "cancelledPrice": 0
+                },
+                "xxl": {
+                    "price": 1800,
+                    "cancelledPrice": 0
+                },
+                "xxxl": {
+                    "price": 2000,
+                    "cancelledPrice": 0
+                }
+            }
+        },
+        {
+            "id": 10,
+            "name": "Blue Solid",
+            "description": "description",
+            "status": "Trending",
+            "prices": {
+                "s_baby": {
+                    "price": 1200,
+                    "cancelledPrice": 0
+                },
+                "m_baby": {
+                    "price": 1400,
+                    "cancelledPrice": 0
+                },
+                "xl": {
+                    "price": 1600,
+                    "cancelledPrice": 0
+                },
+                "xxl": {
+                    "price": 1800,
+                    "cancelledPrice": 0
+                },
+                "xxxl": {
+                    "price": 2000,
+                    "cancelledPrice": 0
+                }
+            }
+        },
+        {
+            "id": 11,
+            "name": "Yellow Solid",
+            "description": "description",
+            "status": "Trending",
+            "prices": {
+                "s_baby": {
+                    "price": 1200,
+                    "cancelledPrice": 0
+                },
+                "m_baby": {
+                    "price": 1400,
+                    "cancelledPrice": 0
+                },
+                "xl": {
+                    "price": 1600,
+                    "cancelledPrice": 0
+                },
+                "xxl": {
+                    "price": 1800,
+                    "cancelledPrice": 0
+                },
+                "xxxl": {
+                    "price": 2000,
+                    "cancelledPrice": 0
+                }
+            }
+        },
+        {
+            "id": 12,
+            "name": "Green Solid Teardrop",
+            "description": "description",
+            "status": "New",
+            "prices": {
+                "s_baby": {
+                    "price": 1200,
+                    "cancelledPrice": 0
+                },
+                "m_baby": {
+                    "price": 1400,
+                    "cancelledPrice": 0
+                },
+                "xl": {
+                    "price": 1600,
+                    "cancelledPrice": 0
+                },
+                "xxl": {
+                    "price": 1800,
+                    "cancelledPrice": 0
+                },
+                "xxxl": {
+                    "price": 2000,
+                    "cancelledPrice": 0
+                }
+            }
+        },
+        {
+            "id": 13,
+            "name": "Brown Solid",
+            "description": "description",
+            "status": "",
+            "prices": {
+                "s_baby": {
+                    "price": 1200,
+                    "cancelledPrice": 0
+                },
+                "m_baby": {
+                    "price": 1400,
+                    "cancelledPrice": 0
+                },
+                "xl": {
+                    "price": 1600,
+                    "cancelledPrice": 0
+                },
+                "xxl": {
+                    "price": 1800,
+                    "cancelledPrice": 0
+                },
+                "xxxl": {
+                    "price": 2000,
+                    "cancelledPrice": 0
+                }
+            }
         }
     ]
 }
